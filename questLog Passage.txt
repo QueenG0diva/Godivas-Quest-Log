@@ -1,0 +1,13 @@
+<div id="quest-tabs">
+  <button id="in-progress-tab" onclick="setQuestTab('in-progress')">In Progress</button>
+  <button id="completed-tab" onclick="setQuestTab('completed')">Completed</button>
+  <button id="failed-tab" onclick="setQuestTab('failed')">Failed</button>
+</div>
+
+<div id="quest-content">
+  <!-- Quests will be displayed here based on the selected tab -->
+</div>
+
+<<script>>
+  // Initial display of quests;
+<</script>>

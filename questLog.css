@@ -1,0 +1,92 @@
+/***QUEST LOG***/
+.quest-entry {
+  border-bottom: 1px solid #444;
+  padding: 0;
+  background-color: #1a1a1a;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.quest-title {
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 20px; 
+  margin-top: 0;
+  font-family: 'Questrial', sans-serif;
+  text-transform: uppercase;
+}
+
+.quest-description {
+  color: #777;
+  margin: 3px 0; 
+  font-size: 16px; 
+  font-style: italic;
+}
+
+.quest-status {
+  color: #aaa;
+  font-style: normal;
+  font-size: 12px; 
+}
+
+
+.quest-status.in-progress {
+  color: #ff9900;
+}
+
+.quest-status.completed {
+  color: #33cc33;
+}
+
+
+.quest-title.failed-quest,
+.quest-description.failed-quest {
+  text-decoration: line-through;
+}
+
+#quest-tabs {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #1a1a1a;
+  padding: 8px 0; 
+  margin-bottom: 15px; 
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#quest-tabs button {
+  background-color: transparent;
+  border: none;
+  padding: 8px 16px; 
+  margin: 0 8px; 
+  cursor: pointer;
+  color: goldenrod;
+  font-weight: bold;
+  transition: color 0.3s, background-color 0.3s, transform 0.2s;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px; 
+  text-transform: uppercase;
+}
+
+#quest-tabs button:hover {
+  background-color: #2a2a2a;
+  color: #ff9900;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transform: translateY(-2px);
+}
+
+#quest-content {
+  border: 1px solid #444;
+  padding: 15px; 
+  background-color: #1a1a1a;
+  color: #aaa;
+  font-family: 'Questrial', sans-serif;
+  line-height: 1.5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-size: 20px; 
+}
+
+.quest-entry:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
