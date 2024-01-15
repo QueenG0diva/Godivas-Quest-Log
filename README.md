@@ -11,7 +11,8 @@ Godiva's Quest Log is a Twine script that allows you to create and manage quests
 * **Failure Reasons**: If a quest fails, you can add a reason for the failure.
 
 * **Tabbed Interface**: Organize quests by status with tabbed navigation.
-Counts: See the number of active quests for each status category.
+  
+*  **Counts**: See the number of active quests for each status category.
 
 ## Installation
 
