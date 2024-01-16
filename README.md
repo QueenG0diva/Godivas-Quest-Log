@@ -14,6 +14,9 @@ Godiva's Quest Log is a Twine script that allows you to create and manage quests
   
 *  **Counts**: See the number of active quests for each status category.
 
+## Demo
+You can view the demo on [itch.io](https://queengodiva.itch.io/quest-log-demo).
+
 ## Installation
 
 1. Download and extract the zip file.
